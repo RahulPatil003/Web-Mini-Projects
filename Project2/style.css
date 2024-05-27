@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    background-color: #e3dada;
+    padding: 55px ;
+
+}
+#intro h1{
+    font-size: 120px;
+    line-height: 110px;
+}
+#detials{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#intro_buttons{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: flex;
+    
+    padding: 5px;
+}
+#menu-icons{
+    display: flex;
+
+    padding: 6px;
+
+}
+#btn-0{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+#btn-menu{
+    border: 1px solid black;
+    padding: 3px;
+}
+#hero_img{
+    width: 100%;
+    height: 80%;
+    background-image: url(./6458a6db645ec6a527000cfa_home-hero.webp);    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about-section{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+#about-section p{
+    flex-basis: 60%;
+    font-size: 75px;
+}
+#about-section hr{
+    height: 320px;
+    font-weight: 100;
+    border: 2px solid black;
+}
+#about-section #hrbtm{
+    /* width: 100%; */
+    border-bottom: 2px solid black;
+}
+#about-section #abt-head{
+    flex-basis: 30%;
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+#about-section #abt-head #abt-icon{
+    position: relative;
+    top: 65%;
+    bottom: 2%;
+    right: 3%;
+    left: 5%;
+    transform: translate(-2%,-3%);
+    size: 60px;
+}
+.line_abt{
+    width: 100%;
+    height: 2px;
+    perspective-origin: 50%;
+    transform-origin: 50%;
+    color: black;
+}
+#section1{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
